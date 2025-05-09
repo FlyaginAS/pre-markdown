@@ -1,118 +1,81 @@
-# Header 1
+# This is my markdown file
 
-lorem sfd asf asfd sfd
-asfd
+## Headings
 
-## Header 2
-
-bla bla blab lba
-
-### Header 3
-
-bla bla blab lba
-<a name='anchor-to-some-text'></a>
-some text with anchor without heading
-
-#### header 4
+just some header
 
 ## Styling text
 
-bla bla blab lba
-**some bold text**
-_italic text_
-~~strike through~~
-**bold and _italic_**
-text and <sub> subtext</sub>
-text and <sup>sup text</sup>
-text and <ins>underlined text</ins>
+<a id="custom-anchor-styling-text"></a>
+**bold text** and regular  
+_italic text_ and regular  
+~~strikethrough text~~ and regular  
+**bold and _nested italic_** and regular
+some <sub>sub</sub> and <sup>sup</sup> text  
+some <ins>underlined text</ins>
 
-## Quotiong code
+## Styling text
 
-> some quote
-> use `git status` to know...
+**bold text** and regular  
+_italic text_ and regular  
+~~strikethrough text~~ and regular  
+**bold and _nested italic_** and regular
+some <sub>sub</sub> and <sup>sup</sup> text  
+some <ins>underlined text</ins>
 
-```
-git status
-git add
-git commit
-```
+## Styling text
 
-## Colors in issues, pull request and discussions
+**bold text** and regular  
+_italic text_ and regular  
+~~strikethrough text~~ and regular  
+**bold and _nested italic_** and regular
+some <sub>sub</sub> and <sup>sup</sup> text  
+some <ins>underlined text</ins>
 
-color is `rgb(255,0,0)` bla
+## Quoting
 
-## Links
+> some quoted text
 
-This is a link [To google](https://www.google.com/)
+`and some quoted code` and regular text
 
-## Section links
+## Some links
 
-This is a link to the section 'Header 1': [The link](#header-1)
-
-## Relative links
-
-this is a relative link to my contributors [To contributors](./contributors/contributors.md)
+some text [To Google ](https://www.google.com/)  
+link to the header1 [to header 1](#this-is-my-markdown-file)
+link to relative doc [to Contributors](./contributors/contributors.md)
 
 ## Custom anchors
 
-Link to some anchored text [to text](#anchor-to-some-text)
+link to custom a [to styling text](#custom-anchor-styling-text)
 
-## Line breaks
+## New lines
 
-bla sdfsf asfsf asfd <br/>
-asfdsdf sfdsf <br/>
-safdsfsf <br/>
-with two spaces  
-bla bla
-or with a backslash\
-bla bla
+two spaces at the end  
+backslash at the end\
+br tag at the end<br/>
 
 ## Images
 
-![This is a star](./star.png)
+this is an image  
+![Star](./star.png)
 
-## Lists
+## LIsts
 
-### Unordered list1
+### Unordered list
 
-- Book
-- computer
-- cat
-
-### Unordered list 2
-
-- dog
-- cat
+- Books
+- Cats
+- Money
 
 ### Ordered list
 
-1. Wife
-2. Husband
+3. Book
+4. Cat
+5. Man
 
-## Taks list
+## Task list
 
-## Paragraphs
+- [x] buy a macbook
 
-sfsfsfsd safsfsd sfsf sfsfsd asf ssdfsdfsf fsfsfd
-sfdsdf sfsf sf sfddsfsfs sdfsfsd sfsddf sfsf sfsd
-
-sdfsd sfsdf sf sfddsf sfd sfd sdfsfsd sdfsfd sf sf
-
-## Alerts
-
-> [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
-
-<!-- sfdsdf sdfsdfds sdfsdf -->
+- [ ] sell an old laptop
+- [ ] find a job
